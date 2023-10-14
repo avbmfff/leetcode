@@ -17,6 +17,3 @@ def two_sum(nums: List[int], target: int) -> List[int]:
         num_dict[num] = i
 
     return []
-
-
-print(two_sum(nums=[3, 2, 4], target=6))
